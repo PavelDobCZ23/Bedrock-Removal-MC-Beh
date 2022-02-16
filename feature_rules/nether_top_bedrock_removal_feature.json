@@ -1,0 +1,23 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "icecraft:nether_top_bedrock_removal_feature",
+            "places_feature": "icecraft:scatters/nether_bedrock_removal"
+        },
+        "conditions": {
+            "placement_pass": "first_pass",
+            "minecraft:biome_filter": {
+                    "test":"has_biome_tag",
+                    "operator": "==",
+                    "value": "nether"
+                }
+        },
+        "distribution": {
+            "iterations": 1,
+            "x": 0,
+            "y": 123,
+            "z": 0
+        }
+    }
+}

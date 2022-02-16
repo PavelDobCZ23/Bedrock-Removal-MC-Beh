@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "If you wanna get rid of that annoying unbreakable block under and above the world in nether and overworld. §1Made by PavelDobCZ23",
+        "name": "Bedrock Removal Pack",
+        "uuid": "3915e6e6-1c70-4a1b-b4fd-9d44a35d18f9",
+        "version": [ 1, 1, 0 ],
+        "min_engine_version": [ 1, 17, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Bedrock Removal Pack [BP] - data module",
+            "type": "data",
+            "uuid": "09fdee0f-a7a4-4214-b903-29ef74967e58",
+            "version": [1, 1, 0]
+        }
+    ]
+}
